@@ -40,10 +40,8 @@ public class ControlPanel extends AppCompatActivity {
     TextView tvClientId;
     TextView tvStatus;
 
-    Button btnConnect;
     Button btnSubscribe;
     Button btnPublish;
-    Button btnDisconnect;
 
     AWSIotMqttManager mqttManager;
     String clientId;
