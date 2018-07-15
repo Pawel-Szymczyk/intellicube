@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingsPanel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:paddingLeft="10dp"
+            android:text="General"
+            android:summary="%s General settings description"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnControlPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:paddingLeft="10dp"
+            android:text="Control Panel"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
