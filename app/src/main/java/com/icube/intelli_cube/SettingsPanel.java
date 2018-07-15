@@ -10,6 +10,7 @@ public class SettingsPanel extends AppCompatActivity {
 
     Button btnGeneral;
     Button btnControlPanel;
+    Button btnConfigCognito;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,9 +19,11 @@ public class SettingsPanel extends AppCompatActivity {
 
         btnGeneral = (Button) findViewById(R.id.btnGeneral);
         btnControlPanel = (Button) findViewById(R.id.btnControlPanel);
+        btnConfigCognito = (Button) findViewById(R.id.btnConfigCognito);
 
         btnGeneral.setOnClickListener(btnGeneralClick);
         btnControlPanel.setOnClickListener(btnControlPanelClick);
+        btnConfigCognito.setOnClickListener(btnConfigCognitoClick);
     }
 
     View.OnClickListener btnGeneralClick = new View.OnClickListener() {
@@ -38,4 +41,13 @@ public class SettingsPanel extends AppCompatActivity {
             startActivity(intent);
         }
     };
+
+    View.OnClickListener btnConfigCognitoClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(SettingsPanel.this, ConfigPanel.class);
+            startActivity(intent);
+        }
+    };
+
 }
