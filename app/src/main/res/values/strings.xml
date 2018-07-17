@@ -82,4 +82,6 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="region_xxxxxxxxx_xxxx_xxxx_xxxx_xxxxxxxxxxxx"><![CDATA[<region>:XXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX]]></string>
+    <string name="cube_name">Cube name</string>
+    <string name="txt_cube_name">Cube Name</string>
 </resources>
