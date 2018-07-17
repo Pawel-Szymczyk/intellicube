@@ -46,7 +46,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".ConfigPanel" />
-        <activity android:name=".UploadCubePanel"></activity>
+        <activity android:name=".UploadCubePanel" />
+        <activity
+            android:name=".CubePanel"
+            android:label="@string/title_activity_cube_panel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

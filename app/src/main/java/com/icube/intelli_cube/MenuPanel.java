@@ -29,10 +29,9 @@ public class MenuPanel extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             // Go to the main activity // todo: new panel here
-//            final Intent intent = new Intent(this, )
-//                    .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//            activity.startActivity(intent);
-//            activity.finish();
+            final Intent intent = new Intent(MenuPanel.this, UploadCubePanel.class);
+            startActivity(intent);
+
         }
     };
 
@@ -40,7 +39,7 @@ public class MenuPanel extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             // TODO: chnage this to open a settings panel and in the settings panel allow to open control panel ...
-            Intent intent = new Intent(MenuPanel.this, SettingsPanel.class);
+            final Intent intent = new Intent(MenuPanel.this, SettingsPanel.class);
             startActivity(intent);
         }
     };
