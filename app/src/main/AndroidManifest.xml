@@ -39,18 +39,18 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".SettingsPanel" />
-
-
-        <activity
-            android:name=".ControlPanel">
-
+        <activity android:name=".SettingsPanel" />
+        <activity android:name=".ControlPanel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name=".ConfigPanel" />
+        <activity android:name=".UploadCubePanel" />
+        <activity
+            android:name=".CubePanel"
+            android:label="@string/title_activity_cube_panel"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

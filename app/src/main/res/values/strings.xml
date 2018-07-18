@@ -75,4 +75,14 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="cognito_pool_id">Cognito Pool ID</string>
+    <string name="xxxxxxxxxx_iot_region_amazonaws_com"><![CDATA[XXXXXXXXXX.iot.<region>.amazonaws.com]]></string>
+    <string name="customer_testing_endpoint">Customer Testing Endpoint</string>
+    <string name="region">Region</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="region_xxxxxxxxx_xxxx_xxxx_xxxx_xxxxxxxxxxxx"><![CDATA[<region>:XXXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX]]></string>
+    <string name="cube_name">Cube name</string>
+    <string name="txt_cube_name">Cube Name</string>
+    <string name="title_activity_cube_panel">CubePanel</string>
 </resources>

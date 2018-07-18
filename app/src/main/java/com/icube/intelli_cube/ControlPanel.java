@@ -26,11 +26,11 @@ public class ControlPanel extends AppCompatActivity {
     // ---------------------------- const ----------------------------
     private static final String LOG_TAG = ControlPanel.class.getCanonicalName();
     // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com,
-    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "XXXXXXXXXX.iot.<region>.amazonaws.com";
+    private static final String CUSTOMER_SPECIFIC_ENDPOINT = "a3097mm1omyczm.iot.eu-west-2.amazonaws.com";
     // AWS IoT permissions.
-    private static final String COGNITO_POOL_ID = "us-west-X:056d1eb9-13ae-4354-8983-XXXXXXXXXXXXXX";
+    private static final String COGNITO_POOL_ID = "us-west-2:056d1eb9-13ae-4354-8983-f681a5f84600";
     // Region of AWS IoT
-    private static final Regions MY_REGION = Regions.AP_NORTHEAST_1;
+    private static final Regions MY_REGION = Regions.US_WEST_2;
 
     EditText txtSubscribe;
     EditText txtTopic;
@@ -40,10 +40,8 @@ public class ControlPanel extends AppCompatActivity {
     TextView tvClientId;
     TextView tvStatus;
 
-    Button btnConnect;
     Button btnSubscribe;
     Button btnPublish;
-    Button btnDisconnect;
 
     AWSIotMqttManager mqttManager;
     String clientId;
